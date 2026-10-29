@@ -1,5 +1,6 @@
 # Mudanças de método
 
+- **29/10/2026:** a página de fontes separa o período coberto (informado pelo Banco Central) da data em que o Creditoscópio carregou a cópia da fonte. A metodologia passa a dizer que o mínimo de 10 instituições para quartis e posição é regra de publicação, não intervalo de confiança, e a separar o que é dado do Banco Central do que é cálculo ou organização do Creditoscópio. Sem mudança de cálculo.
 - **29/10/2026:** simulador de financiamento imobiliário com os números da proposta (TR, seguros e tarifa informados pela pessoa); a taxa publicada pelo Banco Central não entra na conta.
 - **07/10/2026:** financiamento imobiliário pós-fixado em TR (fonte mensal) e aquisição de outros bens.
 - **04/10/2026:** consignado privado.

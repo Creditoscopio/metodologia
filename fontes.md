@@ -31,6 +31,10 @@ Segmento de pessoas físicas. Janela de referência de cinco dias úteis, exceto
 
 O histórico mensal vem desde 2012 na maior parte das modalidades e desde 2015 nos cartões.
 
+## Datas
+
+A página de fontes do site mostra duas datas por modalidade: o **período coberto**, que é a janela das operações informada pelo Banco Central, e a data em que o Creditoscópio **carregou** a cópia da fonte usada nesse período. Ela só muda quando chega uma cópia nova. O Banco Central publica cada janela depois que ela termina, então as duas datas são diferentes.
+
 ## O que a fonte não informa
 
 - O volume de operações de cada instituição: por isso não há média ponderada entre instituições.
