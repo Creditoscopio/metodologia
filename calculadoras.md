@@ -27,5 +27,6 @@ Funções puras, sem IA, validadas pelos mesmos vetores de teste nas três imple
 - **Explorar o histórico**: até 4 séries mensais sobrepostas desde 2012, com tabela e "como citar".
 - **Margem do consignado**: a pessoa informa a própria margem; o site não afirma a esfera do tomador nem aplica percentual legal ao consignado público e ao privado. No INSS usa a margem de 35% (Lei 10.820/2003, art. 6º, § 5º).
 - **Raio-x do pedido de crédito**: lê o pedido por sinais de regra fixa, sem nota e sem chance de aprovação.
+- **Simulador de financiamento imobiliário**: a conta em reais usa só os números da proposta (taxa ao ano efetiva ou nominal, TR suposta pela pessoa e mantida constante, seguros MIP e DFI e tarifa), em SAC e Price. A cada mês o saldo é corrigido pela TR antes dos juros; no SAC a amortização é o saldo corrigido dividido pelos meses restantes, na Price a parcela é recalculada sobre o saldo corrigido. A mediana das modalidades em TR aparece à parte e não entra na conta, porque o Banco Central não informa se a taxa publicada dessas modalidades inclui a TR. O total não é chamado de CET.
 
 As ferramentas orientam. Não confirmam o que consta do seu contrato.

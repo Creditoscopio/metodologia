@@ -1,5 +1,6 @@
 # Mudanças de método
 
+- **29/10/2026:** simulador de financiamento imobiliário com os números da proposta (TR, seguros e tarifa informados pela pessoa); a taxa publicada pelo Banco Central não entra na conta.
 - **07/10/2026:** financiamento imobiliário pós-fixado em TR (fonte mensal) e aquisição de outros bens.
 - **04/10/2026:** consignado privado.
 - **02/10/2026:** consignado público. Inadimplência da carteira por modalidade e agregados nacionais (SGS), em bloco separado. Mediana, quartis, mínimo, máximo e pontos do histórico passam a arredondar meio para cima sobre a representação decimal (antes, 8,155 saía 8,15; agora sai 8,16).
