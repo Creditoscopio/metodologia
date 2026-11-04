@@ -19,7 +19,7 @@ Segmento de pessoas físicas. Janela de referência de cinco dias úteis, exceto
 |---|---|---|
 | Cartão rotativo | Cartão de crédito – rotativo total – Prefixado | 204101 |
 | Cartão de crédito parcelado | Cartão de crédito – parcelado – Prefixado | 215101 |
-| Cheque especial | Cheque especial – Prefixado | 216101 |
+| Cheque especial | Cheque especial - Prefixado | 216101 |
 | Crédito pessoal (sem consignado) | Crédito pessoal não consignado – Prefixado | 221101 |
 | Crédito consignado INSS | Crédito pessoal consignado INSS – Prefixado | 218101 |
 | Crédito consignado público | Crédito pessoal consignado público – Prefixado | 220101 |
@@ -31,6 +31,20 @@ Segmento de pessoas físicas. Janela de referência de cinco dias úteis, exceto
 
 O histórico mensal vem desde 2012 na maior parte das modalidades e desde 2015 nos cartões.
 
+## Crédito para empresas
+
+Segmento de pessoas jurídicas da mesma base, em seção própria do site ([creditoscopio.com.br/empresas](https://creditoscopio.com.br/empresas/)). Janela de cinco dias úteis, histórico desde janeiro de 2012. Só as modalidades prefixadas com dado de pelo menos 20 instituições:
+
+| Modalidade no site | Nome na fonte | Código |
+|---|---|---|
+| Capital de giro com prazo até 365 dias | Capital de giro com prazo até 365 dias - Prefixado | 210101 |
+| Capital de giro com prazo acima de 365 dias | Capital de giro com prazo superior a 365 dias - Prefixado | 211101 |
+| Desconto de duplicatas | Desconto de duplicatas - Prefixado | 301101 |
+| Cheque especial para empresas | Cheque especial - Prefixado | 216101 |
+| Conta garantida | Conta garantida - Prefixado | 217101 |
+
+O cheque especial tem o mesmo código nos dois segmentos; no site, o de pessoas jurídicas tem página própria e nunca aparece ao lado do de pessoas físicas. Ficam fora as modalidades pós-fixadas, o adiantamento sobre contratos de câmbio e as que têm menos de 20 instituições.
+
 ## Datas
 
 A página de fontes do site mostra duas datas por modalidade: o **período coberto**, que é a janela das operações informada pelo Banco Central, e a data em que o Creditoscópio **carregou** a cópia da fonte usada nesse período. Ela só muda quando chega uma cópia nova. O Banco Central publica cada janela depois que ela termina, então as duas datas são diferentes.
@@ -40,4 +54,5 @@ A página de fontes do site mostra duas datas por modalidade: o **período cober
 - O volume de operações de cada instituição: por isso não há média ponderada entre instituições.
 - IOF, tarifas e seguros: a taxa publicada não equivale ao Custo Efetivo Total (CET) de uma oferta.
 - A marca comercial: a fonte traz a entidade jurídica, e uma marca pode operar por mais de uma.
+- O porte e o setor das empresas no crédito para empresas: cada taxa reúne operações com pessoas jurídicas de todos os tamanhos, e o site não diz qual taxa vale para uma empresa de determinado porte.
 - A documentação do Banco Central não define o tomador do consignado privado, a esfera do tomador do consignado público, o que entra em "aquisição de outros bens" nem o que são as "taxas de mercado" e "taxas reguladas" do financiamento imobiliário. O site não afirma nada disso.
