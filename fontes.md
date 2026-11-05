@@ -6,7 +6,7 @@ Todos os números de taxa vêm de bases do Banco Central do Brasil.
 |---|---|
 | Taxas de juros de operações de crédito por instituição financeira (médias dos últimos 5 dias) | Taxa média por instituição e modalidade, em % ao mês e % ao ano; é a fonte principal |
 | Cadastro de instituições em funcionamento | Nome, conglomerado e CNPJ, usado para identificar a instituição pela raiz do CNPJ |
-| SGS (Sistema Gerenciador de Séries Temporais) | Taxa média mensal do sistema financeiro, inadimplência da carteira e agregados nacionais, sempre em bloco separado |
+| SGS (Sistema Gerenciador de Séries Temporais) | Taxa média mensal do sistema financeiro, inadimplência da carteira, Selic e agregados nacionais, de pessoas físicas e de pessoas jurídicas, sempre em bloco separado |
 | Ranking de Instituições por Índice de Reclamações | Índice trimestral de reclamações, reproduzido na ficha de algumas instituições |
 
 O site mostra a fonte e o período ao lado de cada número. A página [creditoscopio.com.br/fontes](https://creditoscopio.com.br/fontes/) traz, para cada modalidade, o código oficial, o período mais recente e o identificador SHA-256 da cópia exata da resposta do Banco Central que o site usa. Se o Banco Central republicar um período com valores diferentes, o identificador muda e a alteração fica registrada.
@@ -44,6 +44,28 @@ Segmento de pessoas jurídicas da mesma base, em seção própria do site ([cred
 | Conta garantida | Conta garantida – Prefixado | 217101 |
 
 O cheque especial tem o mesmo código nos dois segmentos; no site, o de pessoas jurídicas tem página própria e nunca aparece ao lado do de pessoas físicas. Ficam fora as modalidades pós-fixadas, o adiantamento sobre contratos de câmbio e as que têm menos de 20 instituições.
+
+### Séries do SGS de pessoas jurídicas
+
+Cada modalidade de empresas mostra, em blocos separados da mediana das instituições, a taxa média do mercado e a inadimplência da carteira publicadas pelo Banco Central, e a Selic (série 4189) no mesmo período. O conceito de cada série é o mesmo das séries de pessoas físicas usadas no site.
+
+| Modalidade no site | Taxa média mensal (% ao mês) | Inadimplência (% da carteira) |
+|---|---|---|
+| Capital de giro com prazo até 365 dias | 25441 | 21090 |
+| Capital de giro com prazo acima de 365 dias | 25442 | 21091 |
+| Desconto de duplicatas | 25438 ("Desconto de duplicatas e recebíveis") | 21087 |
+| Cheque especial para empresas | 25446 | 21095 |
+| Conta garantida | 25445 | 21094 |
+
+As séries são de recursos livres e de todas as pessoas jurídicas. A tabela por instituição usa só as operações prefixadas; o SGS não informa se a série inclui as pós-fixadas, e o Banco Central não afirma que as duas medidas sejam equivalentes. Por isso o site não compara a série com a mediana nem com nenhuma instituição. As séries por porte da empresa não são usadas.
+
+### Onde a escolha da instituição mais pesa
+
+A página de empresas compara as modalidades entre si: primeiro quartil (P25), mediana e terceiro quartil (P75) de cada uma e a distância entre os quartis, em pontos percentuais ao mês, só nas modalidades com 10 ou mais instituições. A diferença em reais aparece só no capital de giro, em que o contrato estabelece o prazo: a conta supõe uma dívida de R$ 1.000 paga em parcelas iguais (tabela Price), em 12 meses no capital de giro até 365 dias e em 24 meses no acima de 365 dias, sem IOF, tarifas nem seguros. A forma de pagamento é hipótese do cálculo. No desconto de duplicatas, na conta garantida e no cheque especial, o custo em reais depende do valor e do tempo de uso, que a fonte não informa, e a comparação fica só em pontos percentuais.
+
+### Atualizações mensais
+
+[creditoscopio.com.br/empresas/atualizacoes](https://creditoscopio.com.br/empresas/atualizacoes/) mostra, para cada mês, a mediana de cada modalidade de empresas na primeira janela de cinco dias úteis do mês, comparada à do mês de calendário anterior (sem ponto no mês anterior, não se compara), e quantas instituições tiveram taxa maior, menor ou igual. Não lista nominalmente as maiores altas e quedas, e não atribui causa à variação. Há feeds Atom com as mesmas frases: um geral e um por modalidade.
 
 ## Datas
 
