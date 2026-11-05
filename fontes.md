@@ -19,7 +19,7 @@ Segmento de pessoas físicas. Janela de referência de cinco dias úteis, exceto
 |---|---|---|
 | Cartão rotativo | Cartão de crédito – rotativo total – Prefixado | 204101 |
 | Cartão de crédito parcelado | Cartão de crédito – parcelado – Prefixado | 215101 |
-| Cheque especial | Cheque especial - Prefixado | 216101 |
+| Cheque especial | Cheque especial – Prefixado | 216101 |
 | Crédito pessoal (sem consignado) | Crédito pessoal não consignado – Prefixado | 221101 |
 | Crédito consignado INSS | Crédito pessoal consignado INSS – Prefixado | 218101 |
 | Crédito consignado público | Crédito pessoal consignado público – Prefixado | 220101 |
@@ -37,11 +37,11 @@ Segmento de pessoas jurídicas da mesma base, em seção própria do site ([cred
 
 | Modalidade no site | Nome na fonte | Código |
 |---|---|---|
-| Capital de giro com prazo até 365 dias | Capital de giro com prazo até 365 dias - Prefixado | 210101 |
-| Capital de giro com prazo acima de 365 dias | Capital de giro com prazo superior a 365 dias - Prefixado | 211101 |
-| Desconto de duplicatas | Desconto de duplicatas - Prefixado | 301101 |
-| Cheque especial para empresas | Cheque especial - Prefixado | 216101 |
-| Conta garantida | Conta garantida - Prefixado | 217101 |
+| Capital de giro com prazo até 365 dias | Capital de giro com prazo até 365 dias – Prefixado | 210101 |
+| Capital de giro com prazo acima de 365 dias | Capital de giro com prazo superior a 365 dias – Prefixado | 211101 |
+| Desconto de duplicatas | Desconto de duplicatas – Prefixado | 301101 |
+| Cheque especial para empresas | Cheque especial – Prefixado | 216101 |
+| Conta garantida | Conta garantida – Prefixado | 217101 |
 
 O cheque especial tem o mesmo código nos dois segmentos; no site, o de pessoas jurídicas tem página própria e nunca aparece ao lado do de pessoas físicas. Ficam fora as modalidades pós-fixadas, o adiantamento sobre contratos de câmbio e as que têm menos de 20 instituições.
 
