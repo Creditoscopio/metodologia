@@ -8,6 +8,7 @@ Cada número é da **instituição (entidade da fonte)** ou da **modalidade**, n
 - **n**: quantas instituições entraram no cálculo. O conjunto muda de um período para outro.
 - **P25 e P75**: quartis, por interpolação linear entre os valores ordenados.
 - **Posição**: "acima de X% das instituições" é a proporção de instituições com taxa menor, contando empates pela metade. É uma posição na distribuição, não uma nota.
+- **Posição no ranking de juros**: a ordem da instituição na lista da modalidade, da menor para a maior taxa mensal, entre as instituições com taxa maior que zero no período; empate na taxa publicada divide a posição (1, 2, 2, 4) e, abaixo das duas casas, vale a ordem do Banco Central. É a mesma ordem que o Banco Central publica. Uma lista por modalidade de pessoa física com janela de cinco dias úteis e pelo menos 10 instituições; não junta modalidades nem pessoa física com empresas.
 - **Diferença para a mediana**: (taxa da instituição − mediana) ÷ mediana. Abaixo de 0,05% da mediana aparece como "igual à mediana".
 - **Referência oficial do mercado (SGS)**: taxa média mensal das novas operações de crédito livre do sistema financeiro inteiro, ponderada pelo valor das concessões. Medida diferente da mediana, sempre em gráfico separado, nunca usada para posicionar instituição.
 - **Inadimplência (SGS)**: percentual da carteira de crédito livre com parcela em atraso há mais de 90 dias. Não é taxa de juros nem medida de instituição.

@@ -22,7 +22,7 @@ Licença do texto: CC BY 4.0. Os dados de origem seguem os termos de cada portal
 ## O que é do Banco Central e o que é do Creditoscópio
 
 - **Dado oficial do Banco Central, sem alteração:** a taxa média de cada instituição em cada modalidade e período (% ao mês e % ao ano), o nome e o código da modalidade, o nome e a raiz do CNPJ da entidade; as séries do SGS (taxa média do mercado, inadimplência e endividamento); o índice de reclamações.
-- **Cálculo do Creditoscópio a partir desse dado:** mediana, quartis, posição entre as instituições, diferença para a mediana, mediana por tipo de instituição, a série mensal (uma janela por mês), as atualizações mensais e as contas das ferramentas.
+- **Cálculo do Creditoscópio a partir desse dado:** mediana, quartis, posição entre as instituições, posição no ranking de juros, diferença para a mediana, mediana por tipo de instituição, a série mensal (uma janela por mês), as atualizações mensais e as contas das ferramentas.
 - **Organização do Creditoscópio:** a marca comercial ligada a cada entidade, o tipo de instituição e os pares de comparação. Não são classificações do Banco Central.
 
 ## Como citar

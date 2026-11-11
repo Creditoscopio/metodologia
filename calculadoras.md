@@ -4,7 +4,7 @@
 
 - Nenhum número sem período e fonte.
 - Ausência é declarada: "sem dado no período", nunca zero. Taxa igual a zero na fonte não entra em mediana, quartil, mínimo ou máximo.
-- Sem ranking de "melhores", sem "melhor/pior" e sem recomendação de instituição.
+- Sem "melhor/pior", nota, selo ou recomendação de instituição. O ranking de juros só repete a ordem publicada pelo Banco Central, da menor para a maior taxa, com a lista completa e a mediana ao lado.
 - Dado parcial nunca sobrescreve dado bom: a publicação é recusada se uma modalidade ficar sem dados, uma tabela ficar vazia ou o período recuar.
 - Diferença entre instituições é descrita como fato, em pontos percentuais, sem atribuir causa.
 - A taxa publicada nunca é comparada ao CET nem a teto de juros.
