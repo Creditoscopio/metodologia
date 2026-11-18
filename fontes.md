@@ -45,6 +45,10 @@ Segmento de pessoas jurídicas da mesma base, em seção própria do site ([cred
 
 O cheque especial tem o mesmo código nos dois segmentos; no site, o de pessoas jurídicas tem página própria e nunca aparece ao lado do de pessoas físicas. Ficam fora as modalidades pós-fixadas, o adiantamento sobre contratos de câmbio e as que têm menos de 20 instituições.
 
+### Instituições só com crédito para empresas
+
+Parte das instituições só tem taxa publicada em operações com pessoas jurídicas. Elas passam pela mesma verificação automatizada da ligação entre marca e entidade usada nas demais e têm página só na seção de empresas, uma por modalidade em que têm taxa. Não têm ficha entre as instituições de pessoa física e não entram em lista, grupo, comparação, ferramenta ou contagem de pessoa física. Se uma delas passar a ter taxa numa modalidade de pessoa física, passa a ter também a ficha de pessoa física. Sem mudança no cálculo.
+
 ### Séries do SGS de pessoas jurídicas
 
 Cada modalidade de empresas mostra, em blocos separados da mediana das instituições, a taxa média do mercado e a inadimplência da carteira publicadas pelo Banco Central, e a Selic (série 4189) no mesmo período. O conceito de cada série é o mesmo das séries de pessoas físicas usadas no site.
